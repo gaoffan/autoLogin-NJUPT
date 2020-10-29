@@ -1,3 +1,3 @@
-module git@github.com:gaoffan/autoLogin-NJUPT.git
+module github.com/gaoffan/autoLogin-NJUPT
 
 go 1.14
