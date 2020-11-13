@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="192b89e0-6031-4e95-bb63-4cff08e5f070" name="Default Changelist" comment="" />
+    <list default="true" id="192b89e0-6031-4e95-bb63-4cff08e5f070" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autologin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.5/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jN86SSCnpqd078RNAWbsBB1XSu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,6 +43,16 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Makefile.default">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="autoLogin-NJUPT" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="git@github.com:gaoffan/autoLogin-NJUPT.git" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build autoLogin-NJUPT" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="autoLogin-NJUPT" />
       <working_directory value="$PROJECT_DIR$" />
@@ -44,17 +63,45 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/gaoffan/autoLogin-NJUPT" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="autoLogin-NJUPT" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-u B18030431@cmcc -p 200013" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/gaoffan/autoLogin-NJUPT" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="autoLogin-NJUPT" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="git@github.com:gaoffan/autoLogin-NJUPT.git" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="default" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/makefile" target="default" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build autoLogin-NJUPT" />
+      <item itemvalue="Go Build.go build github.com/gaoffan/autoLogin-NJUPT" />
+      <item itemvalue="Makefile.default" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Makefile.default" />
-        <item itemvalue="Go Build.go build autoLogin-NJUPT" />
+        <item itemvalue="Go Build.go build github.com/gaoffan/autoLogin-NJUPT" />
         <item itemvalue="Makefile.default" />
+        <item itemvalue="Makefile.default" />
+        <item itemvalue="Go Build.go build autoLogin-NJUPT" />
       </list>
     </recent_temporary>
   </component>
@@ -70,68 +117,78 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="809" y="339" key="#Go_Modules/0.23.1680.952@0.23.1680.952" timestamp="1603633094630" />
-    <state x="799" y="368" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603883491356">
-      <screen x="0" y="23" width="2560" height="1340" />
+    <state x="609" y="287" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605275525911">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
-    <state x="799" y="368" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1340@0.23.2560.1340" timestamp="1603883491356" />
+    <state x="609" y="287" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.950@0.23.1680.950" timestamp="1605275525911" />
+    <state x="991" y="396" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1340@0.23.2560.1340" timestamp="1604557561117" />
     <state x="542" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603948482401">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="542" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.952@0.23.1680.952" timestamp="1603948482401" />
-    <state width="584" height="466" key="DebuggerActiveHint" timestamp="1603965943439">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="585" height="465" key="DebuggerActiveHint" timestamp="1605275107521">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
+    <state width="585" height="465" key="DebuggerActiveHint/0.23.1680.950@0.23.1680.950" timestamp="1605275107521" />
     <state width="584" height="466" key="DebuggerActiveHint/0.23.1680.952@0.23.1680.952" timestamp="1603965943439" />
     <state width="548" height="466" key="DebuggerActiveHint/0.23.1680.954@0.23.1680.954" timestamp="1603696098242" />
-    <state width="836" height="655" key="DebuggerActiveHint/0.23.2560.1340@0.23.2560.1340" timestamp="1603713297584" />
-    <state width="1617" height="254" key="GridCell.Tab.0.bottom" timestamp="1603986442790">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="836" height="655" key="DebuggerActiveHint/0.23.2560.1340@0.23.2560.1340" timestamp="1604557594543" />
+    <state width="1617" height="254" key="GridCell.Tab.0.bottom" timestamp="1605276516565">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
-    <state width="1617" height="254" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1603986442790" />
+    <state width="1617" height="254" key="GridCell.Tab.0.bottom/0.23.1680.950@0.23.1680.950" timestamp="1605276516565" />
+    <state width="1617" height="254" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1603987695920" />
     <state width="1617" height="254" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1603986081400" />
-    <state width="1617" height="254" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336581" />
-    <state width="1617" height="254" key="GridCell.Tab.0.center" timestamp="1603986442789">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1604557620000" />
+    <state width="1617" height="254" key="GridCell.Tab.0.center" timestamp="1605276516564">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
-    <state width="1617" height="254" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1603986442789" />
+    <state width="1617" height="254" key="GridCell.Tab.0.center/0.23.1680.950@0.23.1680.950" timestamp="1605276516564" />
+    <state width="1617" height="254" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1603987695919" />
     <state width="1617" height="254" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1603986081399" />
-    <state width="1617" height="254" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336580" />
-    <state width="1617" height="254" key="GridCell.Tab.0.left" timestamp="1603986442789">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1604557619999" />
+    <state width="1617" height="254" key="GridCell.Tab.0.left" timestamp="1605276516563">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
-    <state width="1617" height="254" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1603986442789" />
+    <state width="1617" height="254" key="GridCell.Tab.0.left/0.23.1680.950@0.23.1680.950" timestamp="1605276516563" />
+    <state width="1617" height="254" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1603987695918" />
     <state width="1617" height="254" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1603986081399" />
-    <state width="1617" height="254" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336580" />
-    <state width="1617" height="254" key="GridCell.Tab.0.right" timestamp="1603986442790">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1604557619999" />
+    <state width="1617" height="254" key="GridCell.Tab.0.right" timestamp="1605276516564">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
-    <state width="1617" height="254" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1603986442790" />
+    <state width="1617" height="254" key="GridCell.Tab.0.right/0.23.1680.950@0.23.1680.950" timestamp="1605276516564" />
+    <state width="1617" height="254" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1603987695920" />
     <state width="1617" height="254" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1603986081400" />
-    <state width="1617" height="254" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336580" />
-    <state width="1617" height="253" key="GridCell.Tab.1.bottom" timestamp="1603972039593">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1604557620000" />
+    <state width="1617" height="253" key="GridCell.Tab.1.bottom" timestamp="1605275840919">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
+    <state width="1617" height="253" key="GridCell.Tab.1.bottom/0.23.1680.950@0.23.1680.950" timestamp="1605275840919" />
     <state width="1617" height="253" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1603972039593" />
     <state width="1299" height="316" key="GridCell.Tab.1.bottom/0.23.1680.954@0.23.1680.954" timestamp="1603696502049" />
-    <state width="1617" height="254" key="GridCell.Tab.1.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336581" />
-    <state width="1617" height="253" key="GridCell.Tab.1.center" timestamp="1603972039593">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.1.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1604557620000" />
+    <state width="1617" height="253" key="GridCell.Tab.1.center" timestamp="1605275840918">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
+    <state width="1617" height="253" key="GridCell.Tab.1.center/0.23.1680.950@0.23.1680.950" timestamp="1605275840918" />
     <state width="1617" height="253" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1603972039593" />
     <state width="1299" height="316" key="GridCell.Tab.1.center/0.23.1680.954@0.23.1680.954" timestamp="1603696502049" />
-    <state width="1617" height="254" key="GridCell.Tab.1.center/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336581" />
-    <state width="1617" height="253" key="GridCell.Tab.1.left" timestamp="1603972039592">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.1.center/0.23.2560.1340@0.23.2560.1340" timestamp="1604557620000" />
+    <state width="1617" height="253" key="GridCell.Tab.1.left" timestamp="1605275840918">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
+    <state width="1617" height="253" key="GridCell.Tab.1.left/0.23.1680.950@0.23.1680.950" timestamp="1605275840918" />
     <state width="1617" height="253" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1603972039592" />
     <state width="1299" height="316" key="GridCell.Tab.1.left/0.23.1680.954@0.23.1680.954" timestamp="1603696502049" />
-    <state width="1617" height="254" key="GridCell.Tab.1.left/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336581" />
-    <state width="1617" height="253" key="GridCell.Tab.1.right" timestamp="1603972039593">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1617" height="253" key="GridCell.Tab.1.left/0.23.2560.1340@0.23.2560.1340" timestamp="1604557620000" />
+    <state width="1617" height="253" key="GridCell.Tab.1.right" timestamp="1605275840918">
+      <screen x="0" y="23" width="1680" height="950" />
     </state>
+    <state width="1617" height="253" key="GridCell.Tab.1.right/0.23.1680.950@0.23.1680.950" timestamp="1605275840918" />
     <state width="1617" height="253" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1603972039593" />
     <state width="1299" height="316" key="GridCell.Tab.1.right/0.23.1680.954@0.23.1680.954" timestamp="1603696502049" />
-    <state width="1617" height="254" key="GridCell.Tab.1.right/0.23.2560.1340@0.23.2560.1340" timestamp="1603714336581" />
+    <state width="1617" height="253" key="GridCell.Tab.1.right/0.23.2560.1340@0.23.2560.1340" timestamp="1604557620000" />
     <state x="352" y="139" key="SettingsEditor" timestamp="1603985985685">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
